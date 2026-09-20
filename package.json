@@ -7,8 +7,10 @@
   "description": "A full-stack MERN Wanderlust Website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "node app.js",
+  "dev": "nodemon app.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vaibhavshukla-codes/Wanderlust.git"
